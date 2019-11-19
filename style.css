@@ -61,6 +61,17 @@ img {
   padding-top: 20px;
 }
 
+#postblastfronttext {
+  padding-left: 80px;
+}
+
+#postblastbackimg {
+  width: 66%;
+  height: 51%;
+  padding-left: 65px;
+  padding-top: 20px;
+}
+
 .backwards {
   width: 50%;
   height: 45%;
@@ -70,7 +81,13 @@ img {
 .container,
 .flip-box,
 .front,
-.back {
+.back,
+.front_deterrent,
+.back_deterrent,
+.front_postblast,
+.back_postblast,
+.front_environmental,
+.back_environmental {
   width: 378px;
   height: 508px;
 }
@@ -81,7 +98,13 @@ img {
 }
 
 .front,
-.back {
+.back,
+.front_deterrent,
+.back_deterrent,
+.front_postblast,
+.back_postblast,
+.front_environmental,
+.back_environmental {
   position: absolute;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -99,9 +122,13 @@ img {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  margin-top: 100px;
 }
 
-.front {
+.front,
+.front_deterrent,
+.front_postblast,
+.front_environmental {
   background-color: #9BCBDB;
 }
 
@@ -120,7 +147,10 @@ img {
   line-height: 23px;
 }
 
-.back {
+.back,
+.back_deterrent,
+.back_postblast,
+.back_environmental {
   background-color: #DBEDF1;
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
