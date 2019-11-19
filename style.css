@@ -115,6 +115,7 @@ img {
   -moz-transform: perspective(1200px);
   -webkit-perspective: 1200px;
   perspective: 1200px;
+  display: inline-block
 }
 
 .flip_box {
@@ -130,6 +131,7 @@ img {
 .front_postblast,
 .front_environmental {
   background-color: #9BCBDB;
+  display: inline-block
 }
 
 /* .f_title {
@@ -171,7 +173,7 @@ img {
   list-style-type: none
 }
 
-.b_button {
+/* .b_button {
   position: absolute;
   left: 36px;
   bottom: 38px;
@@ -183,7 +185,7 @@ img {
 
 .b_button:hover {
   background-color: #E30143;
-}
+} */
 
 .flipped {
   -webkit-transform: rotateY(-180deg);
@@ -192,10 +194,10 @@ img {
   transform: rotateY(-180deg);
 }
 
-.r_wrap {
+/* .r_wrap {
   position: absolute;
   right: 40px;
-  bottom: 38px;
+  padding-bottom: 365px;
 }
 
 .b_round,
@@ -242,4 +244,4 @@ img {
 
 .s_arrow_rotate {
   transform: rotate(-180deg);
-}
+} */
