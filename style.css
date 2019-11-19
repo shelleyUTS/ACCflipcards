@@ -53,27 +53,27 @@ ul {
 }
 
 img {
-  width: 70%;
-  height: 50%;
-  padding-top: 20px;
-  padding-left: 40px;
+  width: 59%;
+  height: 42%;
+  padding-top: 39px;
+  padding-left: 46px;
 }
 
 #postblastfronttext {
-  padding-left: 43px;
+  padding-left: 22px;
 }
 
 #postblastbackimg {
-  width: 66%;
-  height: 45%;
-  padding-left: 47px;
-  padding-top: 20px;
+  width: 63%;
+  height: 42%;
+  padding-left: 43px;
+  padding-top: 49px;
 }
 
 .backwards {
   width: 50%;
   height: 45%;
-  padding-left: 73px;
+  padding-left: 58px;
 }
 
 .container,
@@ -86,8 +86,8 @@ img {
 .back_postblast,
 .front_environmental,
 .back_environmental {
-  width: 260px;
-  height: 508px;
+  width: 226px;
+  height: 380px;
 }
 
 .container,
@@ -140,7 +140,7 @@ img {
 } */
 
 .f_headline {
-  padding-left: 64px;
+  padding-left: 45px;
   padding-top: 92px;
   line-height: 23px;
 }
