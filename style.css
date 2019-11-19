@@ -8,8 +8,6 @@
 }
 
 body {
-  margin-top: 70px;
-  background-color: #f4f4f4;
   font-family: 'Raleway', sans-serif;
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
@@ -123,7 +121,6 @@ img {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  margin-top: 100px;
 }
 
 .front,
