@@ -17,6 +17,7 @@ body {
 h1,
 p,
 a,
+li,
 span {
   color: #fff;
   letter-spacing: 0.02em;
@@ -55,25 +56,27 @@ ul {
 img {
   width: 59%;
   height: 42%;
-  padding-top: 39px;
-  padding-left: 46px;
+  padding-top: 54px;
+  padding-left: 48px;
+  margin-bottom: -24px;
 }
 
 #postblastfronttext {
   padding-left: 22px;
 }
 
-#postblastbackimg {
+/* #postblastbackimg {
   width: 63%;
   height: 42%;
   padding-left: 43px;
   padding-top: 49px;
-}
+} */
 
 .backwards {
-  width: 50%;
-  height: 45%;
-  padding-left: 58px;
+  margin-bottom: -1px;
+  padding-left: 66px;
+  width: 100px;
+  height: 100px;
 }
 
 .container,
@@ -127,7 +130,7 @@ img {
 .front_deterrent,
 .front_postblast,
 .front_environmental {
-  background-color: #9BCBDB;
+  background-color: #4b4a4d;
 }
 
 /* .f_title {
@@ -149,7 +152,7 @@ img {
 .back_deterrent,
 .back_postblast,
 .back_environmental {
-  background-color: #DBEDF1;
+  background-color: #4b4a4d;
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
@@ -161,7 +164,7 @@ img {
 }
 
 .b_text {
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 28px;
   text-align: center;
   padding-top: 10px;
